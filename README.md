@@ -1,16 +1,27 @@
-# React + Vite
+# 🎬 Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **React Movie Search Application** that allows users to search for movies using the **OMDb API**, filter by **year** and **type**, view **pagination**, and explore detailed movie information.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+✅ **Search Movies** by title (e.g., *Avengers*, *Inception*, etc.)  
+✅ **Filters** – Search by **Year** or **Type** (*movie / series / episode*)  
+✅ **Pagination** – Navigate through multiple pages of results  
+✅ **Movie Details Page** – Click any movie card to view full information  
+✅ **Hover Effects** for better interactivity  
+✅ **Loading States** & **Error Handling**  
+✅ **Smooth Scroll-to-Top** when navigating pages  
+✅ **Custom Year Filter** – Type a year manually for precise results  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React JS (Vite)** – Frontend framework  
+- 🌐 **Axios** – For API requests  
+- 🎨 **CSS (inline styles)** – For styling and hover effects  
+- 🎞️ **OMDb API** – Movie data source  
+
+---
